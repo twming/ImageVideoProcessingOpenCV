@@ -49,8 +49,7 @@ source ~/py312/bin/activate
 
 7. Install OpenCV and Jupyter IDE
 ```
-pip3 install opencv-python
-sudo apt install -y jupyter
+pip3 install opencv-python jupyter
 ```
 
 8. Reboot your Raspberry Pi
