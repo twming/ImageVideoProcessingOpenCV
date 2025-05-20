@@ -19,6 +19,7 @@
 
 4. Login to RaspberryPi4/5, open terminal, install XRDP remote access
 <img src="https://github.com/twming/Computer_Vision_NN_Model/blob/Pi5/img/terminal.png" alt="Terminal" width="500">
+
 ```
 sudo apt install -y ubuntu-gnome-desktop
 sudo apt install -y xrdp
@@ -27,6 +28,7 @@ sudo ufw enable
 sudo ufw allow 3389/tcp
 sudo ufw reload
 ```
+
 5. Check your Raspberry Pi IP address
 ```
 ip addr
