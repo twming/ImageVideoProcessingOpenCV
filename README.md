@@ -47,9 +47,10 @@ python3 -m venv py312
 source ~/py312/bin/activate
 ```
 
-7. Install OpenCV
+7. Install OpenCV and Jupyter IDE
 ```
 pip3 install opencv-python
+sudo apt install -y jupyter
 ```
 
 8. Reboot your Raspberry Pi
