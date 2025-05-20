@@ -39,6 +39,9 @@ ip addr
 
 6. Create a py312 environment and activate it
 ```
+sudo apt update
+sudo apt install -y software-properties-common git curl
+sudo apt install -y python3.12-venv
 cd ~
 python3 -m venv py312
 source ~/py312/bin/activate
@@ -46,12 +49,7 @@ source ~/py312/bin/activate
 
 7. Install OpenCV
 ```
-sudo apt-get install libatlas-base-dev 
-sudo apt-get install libjasper-dev 
-sudo apt-get install libqtgui4 
-sudo apt-get install python3-pyqt5 
-sudo apt install libqt4-test
-pip3 install opencv-python==4.4.0.46
+pip3 install opencv-python
 ```
 
 8. Reboot your Raspberry Pi
