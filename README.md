@@ -30,15 +30,7 @@ sudo ufw allow 3389/tcp
 sudo ufw reload
 ```
 
-5. Check your Raspberry Pi IP address
-```
-ip addr
-```
-
-> [!IMPORTANT] 
-> - Please take note of the IP Address, as you need it to remote login after reboot
-
-6. Create a py312 environment and activate it
+5. Create a py312 environment and activate it
 ```
 sudo apt update
 sudo apt install -y software-properties-common git curl
@@ -48,10 +40,19 @@ python3 -m venv py312
 source ~/py312/bin/activate
 ```
 
-7. Install OpenCV, Matplotlib and Jupyter IDE
+6. Install OpenCV, Jupyter IDE and dependency packages
 ```
-pip3 install opencv-python matplotlib jupyter argparse easydict
+pip3 install opencv-python jupyter matplotlib argparse easydict
 ```
+
+7. Check your Raspberry Pi IP address
+```
+ip addr
+```
+
+> [!IMPORTANT] 
+> - Please take note of the IP Address, as you need it to remote login after reboot
+
 
 8. Reboot your Raspberry Pi
 ```
