@@ -50,7 +50,7 @@ source ~/py312/bin/activate
 
 7. Install OpenCV, Matplotlib and Jupyter IDE
 ```
-pip3 install opencv-python matplotlib jupyter argparse
+pip3 install opencv-python matplotlib jupyter argparse easydict
 ```
 
 8. Reboot your Raspberry Pi
