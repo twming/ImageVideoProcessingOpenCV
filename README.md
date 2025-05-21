@@ -49,11 +49,24 @@ source ~/py312/bin/activate
 
 7. Install OpenCV, Matplotlib and Jupyter IDE
 ```
-pip3 install opencv-python matplotlib jupyter
+pip3 install opencv-python matplotlib jupyter argparse
 ```
 
 8. Reboot your Raspberry Pi
 ```
 sudo poweroff
+```
+
+### Activity : Install YOLO5 on Raspberry Pi
+```
+cd ~
+git clone https://github.com/ultralytics/yolov5  
+cd yolov5
+pip install -r requirements.txt
+```
+### Activity : Run YOLO5 on Raspberry Pi
+```
+cd ~/yolov5
+python detect.py --source 0
 ```
 
