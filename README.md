@@ -59,6 +59,25 @@ ip addr
 sudo poweroff
 ```
 
+### Activity : Start Your OpenCV Exercise
+
+1. Open terminal, activate the py312 environment
+```
+source ~/py312/bin/activate
+```
+
+2. Git clone the exercise.
+```
+cd ~
+git clone https://github.com/twming/ImageVideoProcessingOpenCV
+```
+
+3. Start jupyter notebook
+```
+cd ~/ImageVideoProcessingOpenCV
+jupyter notebook
+```
+
 ### Activity : Install YOLO5 on Raspberry Pi
 ```
 cd ~
