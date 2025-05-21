@@ -5,7 +5,7 @@
 
 <img src="https://github.com/twming/Computer_Vision_NN_Model/blob/Pi5/img/rasp-imager-download.png" alt="ImagerDownload" width="600">
 
-2. Install Ubuntu Desktop 24.04.2 LTS (64-Bit), it will take about 20 mins to clone the SDCard
+2. Install Ubuntu Desktop 24.04.2 LTS (64-Bit), it will take about 20 mins to clone the SDCard (Other general purpose OS -> Ubuntu -> Ubuntu Desktop 24.04.2 LTS (64-Bit) )
 <img src="https://github.com/twming/Computer_Vision_NN_Model/blob/Pi5/img/rasp-imager.png" alt="Imager" width="300">
 <img src="https://github.com/twming/Computer_Vision_NN_Model/blob/Pi5/img/rasp-ubuntu.png" alt="Ubuntu" width="300">
 3. System Configuration: Insert the cloned SDCard to RaspberryPi4/5, boot up the system, you need to setup below:
