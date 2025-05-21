@@ -57,3 +57,16 @@ pip3 install opencv-python matplotlib jupyter argparse
 sudo poweroff
 ```
 
+### Activity : Install YOLO5 on Raspberry Pi
+```
+cd ~
+git clone https://github.com/ultralytics/yolov5  
+cd yolov5
+pip install -r requirements.txt
+```
+### Activity : Run YOLO5 on Raspberry Pi
+```
+cd ~/yolov5
+python detect.py --source 0
+```
+
